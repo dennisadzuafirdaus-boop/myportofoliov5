@@ -134,8 +134,9 @@ export const projects: Project[] = [
     images: ["/images/project/SRS_Bumilcare.webp"],
 
     technologies: [
-      "System Analysis",
+      "PHP Native",
       "UML",
+      "MySQL",
       "Use Case",
       "Activity Diagram",
       "Database Design",
