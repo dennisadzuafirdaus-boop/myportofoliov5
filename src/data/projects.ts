@@ -86,6 +86,79 @@ export const projects: Project[] = [
   },
 
   {
+    id: "Daseo — Admin Dashboard",
+    title: "Daseo — Admin Dashboard",
+    category: "Dashboard Admin",
+    year: "2026",
+
+    shortDescription:
+      "A fully-featured e-commerce admin panel built with React.js and Tailwind CSS, featuring a warm earthy design system, real-time order tracking, product & category management, and sales analytics — all powered by a Laravel REST API.",
+
+    description:
+      "Daseo Admin Dashboard is the operational backbone of a Korean fashion e-commerce platform. Designed with a warm earthy palette — cream, sienna, and terracotta — the interface balances aesthetics with functionality, making daily store management feel intuitive rather than sterile.Built with React.js + Vite + Tailwind CSS on the frontend, and connected to a shared Laravel REST API backed by MySQL, the dashboard covers the full admin workflow across 8 core modules: Login, Dashboard overview, Products, Categories, Orders, Customers, Reports, and Settings.",
+
+    contribution:
+      "I developed the frontend and backend functionality, designed the database structure, implemented product management, and developed the shopping and transaction flow.",
+
+    images: ["/images/project/Admin-Daseo.png"],
+
+    technologies: [
+      "React.js",
+      "Vite ",
+      "Tailwind CSS",
+      "Laravel REST API",
+      "MySQL",
+      "Axios",
+    ],
+
+    features: [
+      "Real-time sales metrics and revenue charts on the main dashboard",
+      "Full CRUD for products and categories with image management",
+      "Order lifecycle tracking from pending to delivered",
+      "Customer data management with order history",
+      "Role-based access and secure authentication flow",
+    ],
+    demo: "https://admin.daseoofficial.web.id/",
+  },
+
+  {
+    id: "Landing Page",
+    title: "Daseo — E-Commerce",
+    category: "E-Commerce",
+    year: "2026",
+
+    shortDescription:
+      "A modern Korean fashion storefront built with Vue.js and powered by a Laravel REST API — featuring a bold black & hot pink aesthetic, smooth product browsing, cart & checkout flow, and wishlist functionality.",
+
+    description:
+      "Daseo is a Korean fashion e-commerce storefront designed to feel bold, minimal, and editorial — built for a generation that shops with intention. The visual identity leans into a high-contrast palette of deep black (#0D0D0D) with hot pink (#FF2D8B) accents, delivering a brand experience that feels closer to a lookbook than a typical online store.The storefront is built with Vue.js + Vite + Tailwind CSS, communicating with a unified Laravel REST API connected to a MySQL database — the same API that powers the admin dashboard, ensuring consistent, real-time inventory and order data.",
+
+    contribution:
+      "I developed the frontend and backend functionality, designed the database structure, implemented product management, and developed the shopping and transaction flow.",
+
+    images: ["/images/project/Daseo-LandingPage.png"],
+
+    technologies: [
+      "Vue.js",
+      "Vite ",
+      "Tailwind CSS",
+      "Laravel REST API",
+      "MySQL",
+    ],
+
+    features: [
+      "Homepage with hero section and featured collections",
+      "All Products with category filtering and search",
+      "Product Detail with image gallery and size selection",
+      "Cart & Checkout with order summary",
+      "Wishlist with persistent state",
+      "About page with brand story",
+      "Realtime Payment Gateway Integration",
+    ],
+    demo: "https://www.daseoofficial.web.id/",
+  },
+
+  {
     id: "pos",
     title: "POS Application Web-Base",
     category: "Point of Sale",
@@ -112,8 +185,6 @@ export const projects: Project[] = [
       "Stock monitoring",
       "Admin dashboard",
     ],
-
-    demo: "https://your-demo-url.com",
   },
 
   {
@@ -181,8 +252,6 @@ export const projects: Project[] = [
       "Database management",
       "Responsive interface",
     ],
-
-    demo: "https://your-demo-url.com",
   },
 
   {
